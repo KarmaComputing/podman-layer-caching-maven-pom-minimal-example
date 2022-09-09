@@ -7,6 +7,12 @@ build cache and `~/.m2` dir.
 
 This example shows how to use build layer caching with podman v4 and above
 
+> **Note**
+> [On Ubuntu 2204 how to install podman v4 from source](https://blog.karmacomputing.co.uk/install-podman-from-source-ubuntu/) may be needed
+
+
+# Speed comparison 
+
 First build: > 7 secconds
 ```
 time podman build -t test .
