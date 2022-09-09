@@ -8,7 +8,7 @@ build cache and `~/.m2` dir.
 This example shows how to use build layer caching with podman v4 and above
 
 First build: > 7 secconds
-````
+```
 time podman build -t test .
 [INFO] Scanning for projects...
 [INFO] 
@@ -16,7 +16,6 @@ time podman build -t test .
 [INFO] Building my-app 1
 [INFO] --------------------------------[ jar ]---------------------------------
 
-...
 
 ...
 
